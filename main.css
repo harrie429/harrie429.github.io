@@ -1,0 +1,159 @@
+html, body, h1, h2, h3, p, ol, li, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  font: inherit;
+}
+label, input{
+  display: block;
+}
+label{
+  margin-bottom: 10px;
+}
+input{
+  width: 500px;
+  margin-bottom: 25px;
+}
+input[type=submit]{
+  width: 120px;
+  font-size: 16px;
+}
+input[type=text]{
+  border: 2px solid #7facaa;
+  font-size: 24px;
+  padding: 7px;
+}
+input[type=checkbox], label[for=newsletter]{
+  display: inline;
+}
+textarea{
+  width: 500px;
+  height: 400px;
+  padding: 7px;
+  border: 2px solid #7facaa;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+body {
+  padding: 0 0  0  0;
+  background: #6f6f6f url(images/stardust.png) top left repeat;
+  font-family: Helvetica, Arial, Calibri, "Times New Roman", sans-serif;
+}
+.header {
+  padding: 10px 10px 10px 10px;
+  background-color: #b56663;
+}
+.header a {
+  color: #ffffff
+}
+h1 {
+  margin: 10px  0 15px  0;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+}
+.main-content{
+  width: 500px;
+  padding: 20px;
+  border: 1px solid #dddddd
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  background: #ffffff url(images/crossword.png) top left repeat;
+}
+.featured-image{
+  width:630px;
+  height: 246px;
+  background: #ffffff url(images/featured-cake.png) top left no-repeat;
+}
+.featured-image h3{
+  margin: 0;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 5px 0 5px 15px;
+  text-transform: uppercase;
+}
+.footer p{
+  color: #aaaaaa;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+h2 {
+  margin: 10px  0 20px  0;
+  color: #7facaa;
+  text-decoration: none;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+p {
+  padding-bottom: 10px;
+
+}
+h3 {margin: 15px  0 15px  0;}
+a {color: #000000;}
+}
+ul {
+  padding: 0 0 0 50px;
+}
+ol {
+  padding: 0 0 0 50px;
+}
+.nav {
+  padding-left: 0;
+  margin: 5px 0 20px 0;
+  text-align: center;
+}
+.nav a {
+  color: #0000af;
+  text-decoration: none;
+}
+.nav li{
+  display: inline;
+}
+.recipes {
+  list-style-type: none;
+  padding: 0;
+}
+.recipes li{
+  border: 1px solid #b56663;
+  padding-left: 15px;
+  background: #ffffff url(images/li-bg.png) top left repeat;
+}
+.recipes a {
+  color: #7facaa;
+  text-decoration: none;
+}
+.ingredients{
+  padding-left: 50px
+}
+.ingredients li{
+  display: list-item;
+}
+.directions li{
+  display: list-item;
+}
+.photos{
+  list-style-type: none;
+  padding: 0;
+}
+.photos li{
+  display: inline;
+  padding-left: 11px;
+}
+h2 {padding: 6px  3px 0 0;}
+h3 {
+  margin: 6px 0 6px 0;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 3px;
+}
+.recipes h3{
+  border-bottom: 0;
+}
